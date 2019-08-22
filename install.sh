@@ -1,4 +1,5 @@
 wget http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.45/bin/apache-tomcat-8.5.45.zip
+apt install unzip
 unzip apache-tomcat-8.5.45.zip
 cd apache-tomcat-8.5.45/webapps
 wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
