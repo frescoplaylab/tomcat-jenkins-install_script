@@ -8,7 +8,7 @@ sed -i 's/<Valve/<!-- <Valve/; s/<\/Context>/ --> <\/Context>/' context.xml
 cd .. && cd .. && cd ..
 cd conf
 sed -i 's/8080/80/g' server.xml
-sed -i 's/<\/tomcat-users>/<role rolename="manager-gui"\/><role rolename="manager-script"\/><user username="admin" password="admin" roles="manager-gui,manager-script"\/><\/tomcat-users>/g' tomcat-users.xml`{{execute}}
+sed -i 's/<\/tomcat-users>/<role rolename="manager-gui"\/><role rolename="manager-script"\/><user username="admin" password="admin" roles="manager-gui,manager-script"\/><\/tomcat-users>/g' tomcat-users.xml
 cd ..
 cd bin
 chmod 777 *.sh
